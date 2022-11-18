@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mf-app/service1": ["libs/service1/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

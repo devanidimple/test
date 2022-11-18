@@ -1,1 +1,11 @@
-<mf-app-nx-welcome></mf-app-nx-welcome>
+<!-- <mf-app-nx-welcome></mf-app-nx-welcome> -->
+
+
+<!-- </ul> -->
+<router-outlet>
+    <h2>Welcom, your in home application component</h2>
+    <!-- <ul> -->
+        <a routerLink="/">Home {{title}}</a> <button (click)="setData()">shared library set method to set data</button><button (click)="getData()">shared library get</button><br>
+        <a routerLink="/gallery">Gallery</a>
+     
+</router-outlet>
